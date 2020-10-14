@@ -26,7 +26,7 @@ class ChatbotTestCase(unittest.TestCase):
                 }
             },
             {
-                KEY_INPUT: "!about me",
+                KEY_INPUT: "!!about me",
                 KEY_EXPECTED: {
                     KEY_IS_BOT: True,
                     KEY_BOT_COMMAND: "about",
